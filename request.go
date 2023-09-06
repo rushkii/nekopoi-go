@@ -13,7 +13,7 @@ func Request(endpoint string) (io.ReadCloser, error) {
 		return nil, err
 	}
 
-	req.Header.Set("appbuildcode", "25030")
+	req.Header.Set("appbuildcode", "25032")
 	req.Header.Set("appsignature", "pOplm8IDEDGXN55IaYohQ8CzJFvWsfXyhGvwPRD9kWgzYSRuuvAOPfsE0AJbHVbAJyWGsGCNUIuQLJ7HbMbuFLMWwDgHNwxOrYMH")
 	req.Header.Set("token", "XbGSFkQsJYbFC6pcUMCFL4oNHULvHU7WdDAXYgpmqYlh7p5ZCQ4QZ13GDgowiOGvAejz9X5H6DYvEQBMrc3A17SO3qwLwVkbn6YY")
 	req.Header.Set("user-agent", "okhttp/4.9.0")
